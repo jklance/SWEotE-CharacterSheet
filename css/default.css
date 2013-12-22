@@ -1,3 +1,137 @@
 body {
     background-color: #fc9;
+    font-size: 10pt;
+}
+
+#characterSheet {
+    width: 800px;
+    margin: 0px auto;
+}
+
+.sectionBlock {
+    border-top: 2px solid black;
+    border-bottom: 1px solid gray;
+    padding: 4px 2px;
+    margin: 3px;
+    float: right;
+    width: 100%;
+    min-height: 60px;
+}
+.sectionLabel {
+    width: 50%;
+    margin: 0px auto 2px auto;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.subsectionBlock {
+    border: 1px solid gray;
+    padding 2px 1px;
+    margin: 2px;
+}
+.subsectionLabel {
+    font-weight: bold;
+    font-size: 1.1em;
+    text-decoration: underline;
+}
+
+.dataField {
+    margin: 1px;
+    width: 100%;
+    clear: right;
+    height: 1.4em;
+}
+.dataLabel {
+    width: 75px;
+    font-weight: bold;
+    font-size: 1.1em;
+    float: left;
+}
+.dataMember {
+    float: left;
+    clear: right;
+}
+
+.dataBlock {
+    margin: 0px auto;
+    padding: 2px;
+    float: left;
+    width: 100%;
+}
+.dataBlockLabel {
+    width: 80%;
+    margin: 0px auto;
+    background-color: navy;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.dataBlockMember {
+    width: 100%;
+    background-color: white;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: text-top;
+    font-size: 2em;
+    height: 40px;
+}
+.dataBlockText {
+    width: 100%;
+    background-color: #cca;
+    text-align: center;
+}
+
+.dataBlock.two {
+    width: 391px;
+}
+.dataBlock.four {
+    width: 195px;
+}
+.dataBlock.six {
+    width: 129px;
+}
+.dataBlock.eight {
+    width: 88px;
+}
+.subdataBlock {
+    width: 48%;
+    padding: 0px 1px;
+    float: left;
+}
+.subDataLabel {
+    font-weight: normal;
+    font-size: .4em;
+}
+.subDataLabel.left {
+    text-align: right;
+    padding-right: 2px;
+    background-color: cyan;
+}
+.subDataLabel.right {
+    text-align: left;
+    padding-left: 2px;
+    background-color: yellow;
+}
+.subDataMember {
+    background-color: white;
+    text-align: center;
+}
+
+.entryTitle {
+    font-weight: bold;
+}
+
+.tabularData {
+    width: 100%;
+}
+.tabularData th {
+    text-align: left;
+}
+.tabularData td {
+    text-align: left;
+}
+
+.clearFix {
+    clear: both;
 }
