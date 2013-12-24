@@ -1,7 +1,9 @@
+var NBSP = '\u00A0';
+
 function SWEotECharacter() {
-    this._player          = null;
-    this._name            = null;
-    this._concept         = null;
+    this._player          = NBSP;
+    this._name            = NBSP;
+    this._concept         = NBSP;
     this._description     = new Array();
     this._background      = new Array();
     this._careers         = new Array();
@@ -70,7 +72,7 @@ SWEotECharacter.prototype.setDescription = function(inData) {
         if (this._description.species) {
             return this._description.species;
         }
-        return null;
+        return NBSP;
     }
 
     // Gender
@@ -81,7 +83,7 @@ SWEotECharacter.prototype.setDescription = function(inData) {
         if (this._description.gender) {
             return this._description.gender;
         }
-        return null;
+        return NBSP;
     }
 
     // Age
@@ -92,7 +94,7 @@ SWEotECharacter.prototype.setDescription = function(inData) {
         if (this._description.age) {
             return this._description.age;
         }
-        return null;
+        return NBSP;
     }
 
     // Height
@@ -103,7 +105,7 @@ SWEotECharacter.prototype.setDescription = function(inData) {
         if (this._description.height) {
             return this._description.height;
         }
-        return null;
+        return NBSP;
     }
 
     // Build
@@ -114,7 +116,7 @@ SWEotECharacter.prototype.setDescription = function(inData) {
         if (this._description.build) {
             return this._description.build;
         }
-        return null;
+        return NBSP;
     }
 
     // Hair
@@ -125,7 +127,7 @@ SWEotECharacter.prototype.setDescription = function(inData) {
         if (this._description.hair) {
             return this._description.hair;
         }
-        return null;
+        return NBSP;
     }
 
     // Eyes
@@ -136,7 +138,7 @@ SWEotECharacter.prototype.setDescription = function(inData) {
         if (this._description.eyes) {
             return this._description.eyes;
         }
-        return null;
+        return NBSP;
     }
 
     // Features
@@ -147,7 +149,7 @@ SWEotECharacter.prototype.setDescription = function(inData) {
         if (this._description.features) {
             return this._description.features;
         }
-        return null;
+        return NBSP;
     }
 
 // Background
@@ -175,13 +177,13 @@ SWEotECharacter.prototype.setBackground = function(inData) {
         if (this._background.obligations) {
             return this._background.obligations;
         }
-        return null;
+        return NBSP;
     }
     SWEotECharacter.prototype.getObligation = function(num) {
         if (this._background.obligations && this._background.obligations.length > num) {
             return this._background.obligations[num];
         }
-        return null;
+        return NBSP;
     }
     
     // Motivations
@@ -195,13 +197,13 @@ SWEotECharacter.prototype.setBackground = function(inData) {
         if (this._background.motivations) {
             return this._background.motivations;
         }
-        return null;
+        return NBSP;
     }
     SWEotECharacter.prototype.getMotivation = function(num) {
         if (this._background.motivations && this._background.motivations.length > num) {
             return this._background.motivations[num];
         }
-        return null;
+        return NBSP;
     }
 
     // Class
@@ -212,7 +214,7 @@ SWEotECharacter.prototype.setBackground = function(inData) {
         if (this._background.class) {
             return this._background.class;
         }
-        return null;
+        return NBSP;
     }
 
 // Careers
@@ -229,13 +231,13 @@ SWEotECharacter.prototype.setCareers = function(inData) {
         if (this._careers) {
             return this._careers;
         }
-        return null;
+        return NBSP;
     }
     SWEotECharacter.prototype.getCareer = function(num) {
         if (this._careers && this._careers.length > num) {
             return this._careers[num];
         }
-        return null;
+        return NBSP;
     }
 
 // Talents
@@ -252,13 +254,13 @@ SWEotECharacter.prototype.setTalents = function(inData) {
         if (this._talents.length > 0) {
             return this._talents;
         }
-        return null;
+        return NBSP;
     }
     SWEotECharacter.prototype.getTalent = function(num) {
         if (this._talents.length > num) {
             return this._talents[num];
         }
-        return null;
+        return NBSP;
     }
 
 // Skills
@@ -275,13 +277,13 @@ SWEotECharacter.prototype.setSkills = function(inData) {
         if (this._skills.length > 0) {
             return this._skills;
         }
-        return null;
+        return NBSP;
     }
     SWEotECharacter.prototype.getSkill = function(num) {
         if (this._skills.length > num) {
             return this._skills[num];
         }
-        return null;
+        return NBSP;
     }
 
 // Characteristics

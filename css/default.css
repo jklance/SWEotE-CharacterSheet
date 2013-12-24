@@ -1,137 +1,93 @@
 body {
     background-color: #fc9;
-    font-size: 10pt;
 }
 
-#characterSheet {
-    width: 800px;
-    margin: 0px auto;
-}
-
-.sectionBlock {
-    border-top: 2px solid black;
-    border-bottom: 1px solid gray;
-    padding: 4px 2px;
-    margin: 3px;
-    float: right;
-    width: 100%;
-    min-height: 60px;
-}
-.sectionLabel {
-    width: 50%;
-    margin: 0px auto 2px auto;
-    font-weight: bold;
-    font-size: 1.5em;
-    text-align: center;
-}
-
-.subsectionBlock {
-    border: 1px solid gray;
-    padding 2px 1px;
+#generalInfo, .section-textarea, .section-textrow {
+    background-color: #fff5ee;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    padding: 5px;
     margin: 2px;
 }
-.subsectionLabel {
-    font-weight: bold;
-    font-size: 1.1em;
-    text-decoration: underline;
+.section-textarea {
+    min-height: 150px;
+}
+.section-textrow {
+    min-height: 75px;
+    overflow: auto;
 }
 
-.dataField {
-    margin: 1px;
-    width: 100%;
-    clear: right;
-    height: 1.4em;
-}
-.dataLabel {
-    width: 75px;
-    font-weight: bold;
-    font-size: 1.1em;
-    float: left;
-}
-.dataMember {
-    float: left;
-    clear: right;
+.row {
+    min-width: 320px;
+    min-height: 150px;
 }
 
-.dataBlock {
-    margin: 0px auto;
-    padding: 2px;
-    float: left;
-    width: 100%;
+.stat-item, .description-item {
+    background-color: #a78d84;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    padding: 5px 5px 11px 5px;
+    margin: 2px;
+    overflow: auto;
 }
-.dataBlockLabel {
-    width: 80%;
-    margin: 0px auto;
-    background-color: navy;
-    color: white;
-    font-weight: bold;
-    text-align: center;
+.stat-value {
+    background-color: #fff;
+    border-radius: 15px;
+    margin: 0px 15px;
+    font-size: 2.1em;
 }
-.dataBlockMember {
-    width: 100%;
-    background-color: white;
-    font-weight: bold;
-    text-align: center;
-    vertical-align: text-top;
-    font-size: 2em;
-    height: 40px;
-}
-.dataBlockText {
-    width: 100%;
-    background-color: #cca;
-    text-align: center;
+.description-value {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 0px 2px;
+    margin: 0px 0px;
+    font-size: .8em;
 }
 
-.dataBlock.two {
-    width: 391px;
+.stat-sub-item {
+    background-color: #a78d84;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    padding: 5px 5px 0px 5px;
+    margin: 2px;
+    overflow: auto;
 }
-.dataBlock.four {
-    width: 195px;
+.stat-sub-value-left {
+    background-color: #fff;
+    font-size: 1.5em;
+    border-top-left-radius: 15px;
+    border-right: 4px solid #ff9;
+    margin-right: -15px;
 }
-.dataBlock.six {
-    width: 129px;
-}
-.dataBlock.eight {
-    width: 88px;
-}
-.subdataBlock {
-    width: 48%;
-    padding: 0px 1px;
-    float: left;
-}
-.subDataLabel {
-    font-weight: normal;
-    font-size: .4em;
-}
-.subDataLabel.left {
-    text-align: right;
-    padding-right: 2px;
-    background-color: cyan;
-}
-.subDataLabel.right {
-    text-align: left;
-    padding-left: 2px;
-    background-color: yellow;
-}
-.subDataMember {
-    background-color: white;
-    text-align: center;
+.stat-sub-label-left {
+    background-color: #ff9;
+    font-size: .8em;
+    margin-top: -10px;
+    margin-right: -15px;
+    border-bottom-left-radius: 15px;
 }
 
-.entryTitle {
-    font-weight: bold;
+.stat-sub-value-right {
+    background-color: #fff;
+    font-size: 1.5em;
+    border-top-right-radius: 15px;
+    border-left: 4px solid #cf9;
+    margin-left: -15px;
+}
+.stat-sub-label-right {
+    background-color: #cf9;
+    font-size: .8em;
+    margin-top: -10px;
+    margin-left: -15px;
+    border-bottom-right-radius: 15px;
 }
 
-.tabularData {
-    width: 100%;
-}
-.tabularData th {
-    text-align: left;
-}
-.tabularData td {
-    text-align: left;
+.equipment-detail {
+    color: #a78d84;
+    padding-left: 40px;
 }
 
-.clearFix {
-    clear: both;
+.footer {
+    color: #fff;
 }
+
